@@ -8,6 +8,6 @@ if __name__ == "__main__":
     elif alx == 1:
         print("1 hello:")
     else:
-        print("{} welcome:".format(alx))
+        print("{} arguments:".format(alx))
     for x in range(alx):
         print("{}: {}".format(x + 1, sys.argv[x + 1]))
