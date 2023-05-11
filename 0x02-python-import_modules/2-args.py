@@ -6,7 +6,7 @@ if __name__ == "__main__":
     if alx == 0:
         print("0 arguments.")
     elif alx == 1:
-        print("1 hello:")
+        print("1 argument:")
     else:
         print("{} arguments:".format(alx))
     for x in range(alx):
