@@ -24,7 +24,7 @@ listint_t *reverse_listint(listint_t **head)
 }
 
 /**
- * is_palindrome - prints singly linked list 
+ * is_palindrome - prints singly linked lists.
  * @head: ...
  * Return: answer of the quiz
  */
