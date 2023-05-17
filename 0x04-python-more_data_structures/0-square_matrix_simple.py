@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    data = ''
+    data = []
 
     if len(matrix) > 0:
         for u in matrix[:]:
