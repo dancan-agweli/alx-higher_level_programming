@@ -1,7 +1,19 @@
 #!/usr/bin/python3
-MyInt = __import__('100-my_int').MyInt
+"""
+ class MyInt
+"""
 
-i = MyInt(3)
-print(i)
-print(i == 3)
-print(i != 3)
+
+class MyInt(int):
+    """ an integer, perfect for opposite day!"""
+    def __new__(cls, *args, **kwargs):
+        """ new instance of the class"""
+        return super(MyInt, cls).__new__(cls, *args, **kwargs)
+
+    def __eq__(self, other):
+        """current"""
+        return int(self) != other
+
+    def __ne__(self, other):
+        """current="""
+        return int(self) == other
